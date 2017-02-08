@@ -1,4 +1,4 @@
-#/*include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
 	int stars = 0;
@@ -9,4 +9,4 @@ int main() {
 		cout << "*";
 	}
 	cout << "" << endl;
-}*/
+}
