@@ -2,10 +2,7 @@
 using namespace std;
 int room = 1;
 bool weapon = 0;
-bool armor = 0;
-int potion = 0;
-int health = 100;
-bool jewel = 0;
+
 char input = 'a';
 int main() {
 	cout << "You wake in a dark cave.  You can feel a candle near your feet, and you have a match in your pocket." << endl;
@@ -15,8 +12,7 @@ int main() {
 		cout << "You decided to fade into the darkness." << endl;
 	else if (input == 'y') {
 		cout << "Your journey begins." << endl;
-		while (input != 'q'&&health > 0)
-			cout << "You have " << health << " health." << endl;
+		while (input != 'q')
 		switch (room) {
 		case 1: cout << "You are right where you found the candle.  There are two tunnels leading out of the room." << endl;
 			cout << "One leads to the east, the other to the west.  Which way will you go?" << endl;
