@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stuff.cpp">
+    <ClCompile Include="Loops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Midterm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
