@@ -4,6 +4,7 @@ using namespace std;
 #include <ctime>
 void Pokemon();
 int main() {
+	string Poke[802] = { "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", };
 	srand(time(NULL));
 	while (1) {
 		Pokemon();
