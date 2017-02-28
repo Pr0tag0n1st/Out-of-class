@@ -496,5 +496,65 @@ void Pokemon() {
 	case 160:
 		cout << "You found Sentret!" << endl;
 		break;
+	case 161:
+		cout << "You found Furret!" << endl;
+		break;
+	case 162:
+		cout << "You found Hoothoot!" << endl;
+		break;
+	case 163:
+		cout << "You found Noctowl!" << endl;
+		break;
+	case 164:
+		cout << "You found Ledyba!" << endl;
+		break;
+	case 165:
+		cout << "You found Ledian!" << endl;
+		break;
+	case 166:
+		cout << "You found Spinarak!" << endl;
+		break;
+	case 167:
+		cout << "You found Ariados!" << endl;
+		break;
+	case 168:
+		cout << "You found Crobat!" << endl;
+		break;
+	case 169:
+		cout << "You found Chinchou!" << endl;
+		break;
+	case 170:
+		cout << "You found Lanturn!" << endl;
+		break;
+	case 171:
+		cout << "You found Pichu!" << endl;
+		break;
+	case 172:
+		cout << "You found Cleffa!" << endl;
+		break;
+	case 173:
+		cout << "You found Igglybuff!" << endl;
+		break;
+	case 174:
+		cout << "You found Togepi!" << endl;
+		break;
+	case 175:
+		cout << "You found Togetic!" << endl;
+		break;
+	case 176:
+		cout << "You found Natu!" << endl;
+		break;
+	case 177:
+		cout << "You found Xatu!" << endl;
+		break;
+	case 178:
+		cout << "You found Mareep!" << endl;
+		break;
+	case 179:
+		cout << "You found Flaaffy!" << endl;
+		break;
+	case 180:
+		cout << "You found Ampharos!" << endl;
+		break;
 	}
 }
