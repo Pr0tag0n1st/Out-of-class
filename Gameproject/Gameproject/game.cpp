@@ -2,6 +2,7 @@
 using namespace std;
 int room = 1;
 bool weapon = 0;
+bool key = 0;
 
 char input = 'a';
 int main() {
@@ -13,6 +14,7 @@ int main() {
 	else if (input == 'y') {
 		cout << "Your journey begins." << endl;
 		while (input != 'q')
+			
 		switch (room) {
 		case 1: cout << "You are right where you found the candle.  There are two tunnels leading out of the room." << endl;
 			cout << "One leads to the east, the other to the west.  Which way will you go?" << endl;
@@ -24,15 +26,18 @@ int main() {
 			break;
 		case 2: 
 			cout << "You arrived in a room with a pedestal." << endl;
-			if (weapon == 0)
+			if (weapon == 0) {
 				cout << "There is a sword in the pedestal.  Will you take it?" << endl;
-			cin >> input;
-			if (input == 'y') {
-				cout << "You took the sword with you." << endl;
-				weapon = 1;
-			}
-			else if (input == 'n') {
-				cout << "You left the sword alone." << endl;
+				cin >> input;
+				if (input == 'y') {
+					cout << "You took the sword with you." << endl;
+					weapon = 1;
+					room = 2;
+				}
+				else if (input == 'n') {
+					cout << "You left the sword alone." << endl;
+					room = 2;
+				}
 			}
 			
 				cout << "There are two paths you can take, one to the west and the other to the south." << endl;
