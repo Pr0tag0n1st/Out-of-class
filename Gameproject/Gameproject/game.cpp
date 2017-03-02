@@ -34,7 +34,7 @@ int main() {
 			else if (input == 'n') {
 				cout << "You left the sword alone." << endl;
 			}
-			else if (weapon == 1) {
+			
 				cout << "There are two paths you can take, one to the west and the other to the south." << endl;
 				cout << "Which way will you go?" << endl;
 				cin >> input;
@@ -42,7 +42,7 @@ int main() {
 					room = 1;
 				else if (input == 's')
 					room = 4;
-			}
+			
 			break;
 			
 		case 3:
